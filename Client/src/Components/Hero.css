@@ -1,0 +1,12 @@
+.defaultHero,
+.roomsHero {
+  min-height: calc(100vh - 66px);
+  background: url("https://images.pexels.com/photos/2373201/pexels-photo-2373201.jpeg?cs=srgb&dl=pexels-gapeppy-2373201.jpg&fm=jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roomsHero {
+  background-image: url("https://images.pexels.com/photos/6394567/pexels-photo-6394567.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-6394567.jpg&fm=jpg");
+  min-height: 60vh;
+}

@@ -1,0 +1,57 @@
+.banner {
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--mainWhite);
+    padding: 2rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+  .s{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .banner h1 {
+    font-size: 2.5rem;
+    color: white;
+  }
+  .banner h2{
+      color: red;
+  }
+  .banner div {
+      
+    width: 10rem;
+    height: 5px;
+    background: var(--primaryColor);
+    margin: 3rem auto;
+  }
+  .banner p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: yellow;
+  }
+  @media screen and (min-width: 576px) {
+    .banner {
+      padding: 2rem 3rem;
+    }
+    .banner h1 {
+      font-size: 3rem;
+      color: white;
+    }
+    .banner h2{
+        color: red;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .banner {
+      padding: 6rem 6rem;
+    }
+    .banner h1 {
+      font-size: 4rem;
+      color: white;
+    }
+    .banner h2{
+        color: red;
+    }
+  }
